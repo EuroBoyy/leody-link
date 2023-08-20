@@ -1,0 +1,223 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.supremo{
+    display: flex;
+    text-align: center;
+    margin-left: 360px;
+    margin-right: 360px;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-shadow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 290px;
+    height: 384px;
+    background: white;
+    border-radius: 10px;
+    font-size: 12px;
+}
+body{
+    margin-top: 100px;
+    background-color: black;
+}
+body .card-shadow{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.card-shadow{
+    box-shadow: inset  0  -3em 3em rgba(249, 0, 0, 0.1),
+    0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.instagram i{
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    color: black;
+}
+.instagram h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: -2px;
+    margin-right: auto; 
+    margin-top: 10px;
+}
+.youtube h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 25px;
+    margin-right: auto; 
+    margin-top: -30px;
+}
+.youtube i{
+    text-align: start;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    color: black;
+}
+.spotify h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 15px;
+    margin-right: auto; 
+    margin-top: -30px;
+}
+.spotify i{
+    text-align: start;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    color: black;
+}
+.music h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 45px;
+    margin-right: auto; 
+    margin-top: -30px;
+}
+.music i{
+    text-align: start;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    color: black;
+}
+.instagram{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    box-shadow: inset  0  -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgb(5, 10, 230);
+}
+.imagem img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: inset  0  -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.youtube{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: inset  0  -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.spotify{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(30, 215, 96);
+    box-shadow: inset  0  -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.music{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(80, 00, 80);
+    box-shadow: inset  0  -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.card-shadow .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+
+
+.menu {
+    width: 100%;
+}
+
+.menu a{
+    text-align: center;
+}
+
+.menu nav a{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    position: relative; right: -550px;
+    top: -50px;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-color: wheat;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+
+}
+
+@media (min-width: 390px) and (max-width: 1080px){
+    .supremo{
+        display: flex;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+    }
+    .menu nav a{
+        text-align: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        padding-right: 8px;
+        font-size: 15px;
+        position: relative; right: -55px;
+        top: -30px;
+
+    }
+}
+
